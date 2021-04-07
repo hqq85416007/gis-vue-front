@@ -1,0 +1,98 @@
+/**
+ *标题栏
+ */
+.boardInfo-title{
+    top:0;
+    height:20%;
+    text-align: left;
+    background-color: #2bc1f9;
+    color: black;
+    padding-left: 5px;
+    background-image: -webkit-linear-gradient(90deg rgb(23,54,114) 0% rgb(21,62,128) 48% rgb(19,69,142) 100%);
+}
+/**
+ *信息栏
+ */
+.boardattr{
+    height: 20px;
+    line-height: 20px;
+    text-align:left;
+    width: 100%;
+    display: inline-block;
+    color: black;
+}
+.boardInfo-attr-td{
+    width:60px;
+    font-size: 12px;
+    text-align: right;
+    color: black;
+}
+.boardInfo-val-td{
+  /*  text-align: left;
+    color: black;
+    font-size: 14px;*/
+
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+
+
+
+.boardDiv{
+    background: rgba(255, 255, 255, 0.7);
+    color: white;
+    width: 80px;
+    height: auto;
+    max-width: 400px;
+    border: #173672 1px solid;
+    cursor:pointer;
+}
+.rightCDiv{
+    width: 260px;
+    position: absolute;
+    z-index: 1;
+    background: rgba(245,245,245,1);
+}
+.rightCDiv-ul{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.rightCDiv-li{
+    cursor: pointer;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.rightCDiv-liSelected{
+    background-color: rgba(84,149,232,1);
+}
+.rightCDiv-li:hover{
+    background-color: rgba(84,149,232,1);
+}
+.form-table{
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+.form-attr{
+    width: 85px;
+    display: block;
+    text-align: right;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.form-input{
+    width: 120px;
+    height: 30px;
+}
+.rightCDiv-button{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}

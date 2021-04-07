@@ -1,0 +1,19 @@
+html,body{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+}
+/* 解决elementUI表格线错位问题 */
+body .el-table th.gutter {
+    display: table-cell !important;
+}
+body .el-table colgroup.gutter {
+    display: table-cell !important;
+}
+/* 表格中的字居中对齐 */
+el-table-colum{
+    text-align: center;
+}
+.el-main{
+    padding: 0;
+}

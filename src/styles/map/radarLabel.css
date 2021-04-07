@@ -1,0 +1,109 @@
+/**
+ *标题栏
+ */
+ .boardInfo-title{
+    top:0;
+    height:20%;
+    text-align: left;
+    background-color: #2bc1f9;
+    color: black;
+    padding-left: 5px;
+    background-image: -webkit-linear-gradient(90deg rgb(23,54,114) 0% rgb(21,62,128) 48% rgb(19,69,142) 100%);
+}
+/**
+ *信息栏
+ */
+.boardattr{
+    height: 20px;
+    line-height: 20px;
+    text-align:left;
+    width: 100%;
+    display: inline-block;
+}
+.boardDiv{
+    width: 243px;
+    height: auto;
+    border: #bbc7ce 1px solid;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 1);
+}
+.title-span{
+    width: 100%;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    background:linear-gradient(90deg,#455157 0%,#657780 100%);
+    padding-left: 10px;
+}
+.board-content-div{
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.board-content-div tr{
+    height: 20px;
+}
+.boardInfo-attr-td{
+    width:60px;
+    text-align: right;
+    color:#777
+}
+.boardInfo-val-td{
+    text-align: left;
+    width: 120px;
+    padding-left: 5px;
+    color:#000;
+    font-size: 12px;
+}
+.boardInfo-td{
+    padding-left: 10px;
+    color: red;
+    font-size: 12px;
+}
+
+
+.board-btn-div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+.board-btn{
+    background: #1185fa;
+    color: #fff;
+    width: 85px;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 80px;
+}
+.trackBtn{
+    width: 20px;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    background: url(/map/img/trackBtn.png) 4px 8px no-repeat;
+}
+.board-mainInfo{
+    color:#333;
+    width: 80px;
+    text-align: center;
+    font-size: 12px;
+}
+.board-mainInfo-val{
+    color: #1185fa;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+.trackSpan{
+    vertical-align: top;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 4px;
+}
